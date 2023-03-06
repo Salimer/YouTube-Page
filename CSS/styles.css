@@ -35,6 +35,9 @@ main {
     .side-bar {
         display: none;
     }
+    .suggestions {
+        display: none;
+    }
     .search {
         display: none;
     }
@@ -189,4 +192,21 @@ hr {
     color: rgb(96, 96, 96);
     font-size: 12px;
 }
+
+.video-container {
+    width: 720px;
+    margin-bottom: 567px;
+}
+
+.video-container iframe {
+    border: none;
+}
+
+.suggestions {
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    overflow-y: hidden;
+}
+
 
